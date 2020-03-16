@@ -1,0 +1,8 @@
+<UserControl Width="1920" Height="1080" Panel.ZIndex="500" InputMethod.IsInputMethodEnabled="True" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mtl="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+  <Grid InputMethod.IsInputMethodEnabled="True">
+    <Image Source="{x:Null}" Stretch="Fill" Width="1920" Height="1080" HorizontalAlignment="Left" VerticalAlignment="Top" Panel.ZIndex="0" InputMethod.IsInputMethodEnabled="True" />
+    <Image Source="BACK GC.png" Name="Image1" Width="1920" Height="1080" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Panel.ZIndex="-1" InputMethod.IsInputMethodEnabled="True" />
+    <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Bold" FontFamily="Titillium Web" Fill="#FF1C1C1C" FontSize="30" Stroke="#FF1C1C1C" TextAlignment="Left" StrokeThickness="1" Text="VANDERLEI LUXEMBURGO" Name="NOME" Width="515.566883116883" Height="36" Margin="189.962005615234,955.117858886719,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
+    <mtl:TextBlockDesign FontStyle="Normal" FontWeight="SemiBold" FontFamily="Titillium Web" Fill="#FFFFFFFF" FontSize="20" TextAlignment="Left" Text="ÍDOLO - COMENTARISTA" Name="FUNÇÃO" Width="352.167924528302" Height="24" Margin="190.341766357422,1004.11218261719,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
+  </Grid>
+</UserControl>

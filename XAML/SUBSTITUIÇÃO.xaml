@@ -1,0 +1,8 @@
+<UserControl Width="1920" Height="1080" Panel.ZIndex="500" InputMethod.IsInputMethodEnabled="True" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mtl="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+  <Grid InputMethod.IsInputMethodEnabled="True">
+    <Image Source="{x:Null}" Stretch="Fill" Width="1920" Height="1080" HorizontalAlignment="Left" VerticalAlignment="Top" Panel.ZIndex="0" InputMethod.IsInputMethodEnabled="True" />
+    <Image Source="BACK SUBSTITUIÇÃO.png" Name="Image1" Width="1920" Height="1080" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Panel.ZIndex="-1" InputMethod.IsInputMethodEnabled="True" />
+    <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Bold" FontFamily="Titillium Web" Fill="#FF1C1C1C" FontSize="33" Stroke="#FF1C1C1C" TextAlignment="Left" StrokeThickness="1" Text="14. DANILO BARCELOS" Name="ENTRA" Width="416.341883116883" Height="50.1933326721191" Margin="271.56201171875,942.44287109375,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
+    <mtl:TextBlockDesign FontStyle="Normal" FontWeight="SemiBold" FontFamily="Titillium Web" Fill="#FFFFFFFF" FontSize="23" TextAlignment="Left" Text="14. DANILO BARCELOS" Name="SAI" Width="352.167924528302" Height="34.9833335876465" Margin="238.941766357422,1000.51218261719,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
+  </Grid>
+</UserControl>

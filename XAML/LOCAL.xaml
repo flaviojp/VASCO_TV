@@ -1,0 +1,8 @@
+<UserControl Width="1920" Height="1080" Panel.ZIndex="500" InputMethod.IsInputMethodEnabled="True" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mtl="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary">
+  <Grid InputMethod.IsInputMethodEnabled="True">
+    <Image Source="{x:Null}" Stretch="Fill" Width="1920" Height="1080" HorizontalAlignment="Left" VerticalAlignment="Top" Panel.ZIndex="0" InputMethod.IsInputMethodEnabled="True" />
+    <Image Source="BACK LOCAL.png" Name="BACKGRUND" Width="1920" Height="1080" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Panel.ZIndex="-1" InputMethod.IsInputMethodEnabled="True" />
+    <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Bold" FontFamily="Titillium Web" Fill="#FF1C1C1C" FontSize="30" Stroke="#FF1C1C1C" TextAlignment="Center" StrokeThickness="1" Text="ESTÁDIO SÃO JANUÁRIO" Name="NOME" Width="562.281977456506" Height="36" Margin="681.056335449219,973.438598632813,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
+    <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Bold" FontFamily="Titillium Web" Fill="#FF1C1C1C" FontSize="23" TextAlignment="Center" Text="RIO DE JANEIRO - RJ" Name="FUNÇÃO" Width="466.281132075472" Height="27.6000003814697" Margin="732.379516601563,1020.43292236328,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
+  </Grid>
+</UserControl>
